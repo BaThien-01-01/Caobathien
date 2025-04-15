@@ -107,28 +107,54 @@ main {
     display: flex;
     align-items: flex-start;
 }
+.form img{
+  width: 40%;
+  height: 5%;
+  
+ 
+}
 /* chỉnh sữa nội dung*/
 h1{
     background-color: #004080;
     color: aliceblue;
    
 }
+.content{
+  width: 100%;
+  text-align: center; /* căn giữa chữ theo chiều ngang */
+
+}
+.content h2{
+  font-size: 22px;
+  line-height: 1.5;
+  font-weight: bold;
+}
 .right{
     align-items: center;
     flex: 50%;
+   
+}
+
   
 section{
     border: 1px solid #ccc;
     padding: 50px;
-    margin-bottom: 20px;
-    align-items: center;
-    display: flex;
+   margin: 10px;
+  
     flex: 1;
     box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
 }
+
+.aa :hover{
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+  background-color: #56646c;
+  cursor: pointer;
 }
+
 section p{
-    margin :0;
+  padding: 10px;
+    margin :auto;
     
 }
 
