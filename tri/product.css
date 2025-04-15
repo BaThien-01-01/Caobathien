@@ -126,7 +126,7 @@ section {
     line-height: 1.6;
   }
   
-  .grid-3 {
+  .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 30px;
