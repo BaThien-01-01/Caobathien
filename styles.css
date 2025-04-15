@@ -461,3 +461,29 @@ main {
   font-size: 14px;
   color: #aaa;
 }
+/* nút cuộn lên */
+#backToTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 999;
+    background-color: #007bff;
+    border: none;
+    padding: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#backToTop a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+#backToTop:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
