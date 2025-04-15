@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #f4f4f4;
+    background-color: #a6ecf1;
     color: #333;
     line-height: 1.6;
 }
@@ -110,18 +110,18 @@ main {
     text-transform: capitalize;
 }
 .main{
-    background-color: #DCDCDC	;
+    background-color: #f6f4f4	;
     border: 1px solid #ccc;       /* Đường viền */
     padding: 0px;                /* Khoảng cách bên trong khung */
     border-radius: 8px;           /* Bo góc */
     width: 50%;                 /* Chiều rộng khung */
     margin:  auto ;               /* Vùng lề */
-    background-color:#B0C4DE;    /* Màu nền nhẹ */
     color: #f1f1f1;
     box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Đổ bóng nhẹ */
     display: flex;
 
 }
+
 .left{
     flex:50%;
     box-shadow: 2px 0 0 #333; 
@@ -131,7 +131,7 @@ main {
 }
 .right{
     flex:1;
-    background-color: #1f1f1f;
+    background-color: #303030;
     
 
 }
@@ -167,6 +167,14 @@ input[type="tel"]
   border-bottom: 2px solid #000;
   outline: none; /* Bỏ đường viền khi được focus */
   background: transparent
+}
+main button{
+  padding: 10px;
+  width: 50%;
+  margin-top: 20%;
+  margin-left: 20%;
+  margin-bottom: 10px;
+  background-color: #007acc;
 }
 
 

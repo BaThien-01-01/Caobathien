@@ -115,7 +115,7 @@ h1{
 }
 .right{
     align-items: center;
-    flex: 1;
+    flex: 50%;
   
 section{
     border: 1px solid #ccc;
@@ -138,12 +138,11 @@ aside a{
     
 
 }
-/* Đường kẻ ở bên phải */
 aside {
     width: 250px;
     box-shadow: 2px 0 0 #ccc; 
     padding: 20px;
-    
+    flex: 10% ;
     
   }
 
